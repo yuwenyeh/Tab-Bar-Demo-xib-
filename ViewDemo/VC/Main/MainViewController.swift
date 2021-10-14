@@ -22,7 +22,7 @@ class MainViewController: UITabBarController {
         self.addChildVC(childVC: FourthVC(), childTitle: "FourthVC", imageName: "tab4", selectedImageName: "tab4-1")
         self.addChildVC(childVC: FiveVC(), childTitle: "FiveVC", imageName: "tab5", selectedImageName: "tab5-1")
     }
-//fdsafdsafds
+
 
     //添加子控制器
     private func addChildVC(childVC: UIViewController, childTitle: String, imageName:String, selectedImageName:String)
